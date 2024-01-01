@@ -1,0 +1,21 @@
+service vendor.mlogservice /vendor/bin/mlogservice
+    class main
+    user shell
+    group system media_rw
+    writepid /dev/cpuset/system-background/tasks
+
+on cali-fs
+    mkdir /data/vendor 0751 root root
+    mkdir /data/vendor/local 0751 root root
+    mkdir /data/vendor/local/mlogservice 0770 shell system
+
+on cali-start
+   start vendor.mlogservice
+
+on factorytest-fs
+    mkdir /data/vendor 0751 root root
+    mkdir /data/vendor/local 0751 root root
+    mkdir /data/vendor/local/mlogservice 0770 shell system
+
+on factorytest-start
+   start vendor.mlogservice

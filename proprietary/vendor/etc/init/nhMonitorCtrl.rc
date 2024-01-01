@@ -1,0 +1,14 @@
+
+service nhmonitorCtrl_Enable /vendor/bin/nhMonitorCtrl -e
+    class late_start
+    user system
+    oneshot
+    disabled
+
+service nhmonitorCtrl_Disable /vendor/bin/nhMonitorCtrl -d
+    class late_start
+    user system
+    oneshot
+    disabled
+
+

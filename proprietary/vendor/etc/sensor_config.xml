@@ -1,0 +1,326 @@
+  <root>
+  <!-->
+  sensor id 0
+  <-->
+<!-- HS03 code for SL6215DEV-2553 by chengzhi at 2021/07/28 start -->
+ <!-- HS03 code for SL6215DEV-22 by chenjun at 2021/07/28 start -->
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o701_hi4821q_backtxd</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 start -->
+        <VCM>
+            <AfName>o701_hi4821q_backtxd_gt9778</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5394</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 end -->
+        <TuningParameter>
+            <TuningName>o701_hi4821q_backtxd</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o702_hi4821q_backly</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 start -->
+        <VCM>
+            <AfName>o702_hi4821q_backly_gt9764</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5394</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 end -->
+        <TuningParameter>
+            <TuningName>o702_hi4821q_backly</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o703_hi4821q_backxl</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 start -->
+        <VCM>
+            <AfName>o703_hi4821q_backxl_dw9800w</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5394</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 end -->
+        <TuningParameter>
+            <TuningName>o703_hi4821q_backxl</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SL6215DEV-2553 by xujiabo at 2021/10/25 start -->
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o701_hi4821q_backtxd</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 start -->
+        <VCM>
+            <AfName>o701_hi4821q_backtxd_gt9778</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5394</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 end -->
+        <TuningParameter>
+            <TuningName>o701_hi4821q_backtxd</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SL6215DEV-2553 by xujiabo at 2021/10/25 end -->
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o704_imx582_backxl</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 start -->
+        <VCM>
+            <AfName>o704_imx582_backxl_dw9800w</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5872</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SL6215DEV-22 by xutengtao at 2021/08/07 end -->
+        <TuningParameter>
+            <TuningName>o704_imx582_backxl</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SL6215DEV-4017 by lisizhou at 2022/01/22 start -->
+      <CameraModuleCfg>
+        <SlotId>0</SlotId>
+        <SensorName>o705_hi4821q_backhlt</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <SensorRole>dualcam_master</SensorRole>
+        <VCM>
+            <AfName>o703_hi4821q_backxl_dw9800w</AfName>
+            <Mode>0</Mode>
+        </VCM>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA0</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>5394</E2promSize>
+            </E2prom>
+        </OTP>
+        <TuningParameter>
+            <TuningName>o705_hi4821q_backhlt</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SL6215DEV-4017 by lisizhou at 2022/01/22 end -->
+ <!-->
+  sensor id 1
+  <-->
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>o701_gc5035_frontly</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>55</Resource_cost>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 start -->
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA8</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>2778</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 end -->
+        <TuningParameter>
+            <TuningName>o701_gc5035_frontly</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>o702_hi556_fronthlt</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>55</Resource_cost>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 start -->
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0x50</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>6558</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 end -->
+        <TuningParameter>
+            <TuningName>o702_hi556_fronthlt</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>o703_gc5035_frontdd</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>55</Resource_cost>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 start -->
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA8</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>2778</E2promSize>
+            </E2prom>
+        </OTP>
+<!-- HS03 code for SR-SL6215-01-463 by chenjun at 2021/08/09 end -->
+        <TuningParameter>
+            <TuningName>o703_gc5035_frontdd</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SR-SL6215DEV-254 by xutengtao at 2022/04/08 start -->
+      <CameraModuleCfg>
+        <SlotId>1</SlotId>
+        <SensorName>o704_sc500cs_frontdd</SensorName>
+        <Facing>FRONT</Facing>
+        <Orientation>270</Orientation>
+        <Resource_cost>55</Resource_cost>
+        <OTP>
+            <E2prom>
+                <OtpName>general</OtpName>
+                <I2cAddr>0xA8</I2cAddr>
+                <E2promNum>0</E2promNum>
+                <E2promSize>2778</E2promSize>
+            </E2prom>
+        </OTP>
+        <TuningParameter>
+            <TuningName>o704_sc500cs_frontdd</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SR-SL6215DEV-254 by xutengtao at 2022/04/08 end -->
+  <!-->
+  sensor id 2
+  <-->
+      <CameraModuleCfg>
+        <SlotId>2</SlotId>
+        <SensorName>o701_gc02m1b_depthly</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>45</Resource_cost>
+        <SensorRole>dualcam_slave</SensorRole>
+        <TuningParameter>
+            <TuningName>o701_gc02m1b_depthly</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>2</SlotId>
+        <SensorName>o702_ov02b1b_depthjk</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>45</Resource_cost>
+        <SensorRole>dualcam_slave</SensorRole>
+        <TuningParameter>
+            <TuningName>o702_ov02b1b_depthjk</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>2</SlotId>
+        <SensorName>o703_gc2375h_depthcxt</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>45</Resource_cost>
+        <SensorRole>dualcam_slave</SensorRole>
+        <TuningParameter>
+            <TuningName>o703_gc2375h_depthcxt</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SR-SL6215DEV-254 by xutengtao at 2022/04/08 start -->
+      <CameraModuleCfg>
+        <SlotId>2</SlotId>
+        <SensorName>o704_sc201cs_depthcxt</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>45</Resource_cost>
+        <SensorRole>dualcam_slave</SensorRole>
+        <TuningParameter>
+            <TuningName>o704_sc201cs_depthcxt</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SR-SL6215DEV-254 by xutengtao at 2022/04/08 end -->
+  <!-->
+  sensor id 3
+  <-->
+      <CameraModuleCfg>
+        <SlotId>3</SlotId>
+        <SensorName>o701_ov02b10_macroly</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>o701_ov02b10_macroly</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>3</SlotId>
+        <SensorName>o702_gc02m1_macrojk</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>o702_gc02m1_macrojk</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+      <CameraModuleCfg>
+        <SlotId>3</SlotId>
+        <SensorName>o703_gc02m1_macrocxt</SensorName>
+        <Facing>BACK</Facing>
+        <Orientation>90</Orientation>
+        <Resource_cost>0</Resource_cost>
+        <TuningParameter>
+            <TuningName>o703_gc02m1_macrocxt</TuningName>
+        </TuningParameter>
+      </CameraModuleCfg>
+<!-- HS03 code for SL6215DEV-22 by chenjun at 2021/07/28 end -->
+<!-- HS03 code for SL6215DEV-2553 by chengzhi at 2021/07/28 end -->
+  </root>

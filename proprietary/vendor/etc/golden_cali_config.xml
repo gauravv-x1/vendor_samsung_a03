@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+主供
+back_main_camera:o701_hi4821q_backtxd: HQ20208519000
+front_main_camera:o701_gc5035_frontly: HQ20208523000
+back_aux1_camera:o703_gc2375h_depthcxt:HQ20207875000
+back_aux2_camera:null
+
+二供
+
+
+-->
+
+<!--HS03_S code for SR-SL6215-01-1227 by guoyan at 2022/05/30 start-->
+<Sensors>
+    <Item back_main_camera="o701_hi4821q_backtxd: HQ20208519000"  back_aux1_camera= "o701_gc02m1b_depthly: HQ20207879000" filepath="/vendor/lib/dualcali_golden_txd_ly.bin"></Item>
+    <Item back_main_camera="o701_hi4821q_backtxd: HQ20208519000"  back_aux1_camera= "o702_ov02b1b_depthjk: HQ20207899000" filepath="/vendor/lib/dualcali_golden_txd_jk.bin"></Item>
+    <Item back_main_camera="o701_hi4821q_backtxd: HQ20208519000"  back_aux1_camera= "o703_gc2375h_depthcxt:HQ20207875000" filepath="/vendor/lib/dualcali_golden_txd_cxt.bin"></Item>
+    <Item back_main_camera="o701_hi4821q_backtxd: HQ20208519000"  back_aux1_camera= "o704_sc201cs_depthcxt:HQ20208935000" filepath="/vendor/lib/dualcali_golden_txd_cxt4.bin"></Item>
+    <Item back_main_camera="o702_hi4821q_backly:  HQ20208520000"  back_aux1_camera= "o701_gc02m1b_depthly: HQ20207879000" filepath="/vendor/lib/dualcali_golden_ly_ly.bin"></Item>
+    <Item back_main_camera="o702_hi4821q_backly:  HQ20208520000"  back_aux1_camera= "o702_ov02b1b_depthjk: HQ20207899000" filepath="/vendor/lib/dualcali_golden_ly_jk.bin"></Item>
+    <Item back_main_camera="o702_hi4821q_backly:  HQ20208520000"  back_aux1_camera= "o703_gc2375h_depthcxt:HQ20207875000" filepath="/vendor/lib/dualcali_golden_ly_cxt.bin"></Item>
+    <Item back_main_camera="o702_hi4821q_backly:  HQ20208520000"  back_aux1_camera= "o704_sc201cs_depthcxt:HQ20208935000" filepath="/vendor/lib/dualcali_golden_ly_cxt4.bin"></Item>
+    <Item back_main_camera="o703_hi4821q_backxl:  HQ20208546000"  back_aux1_camera= "o701_gc02m1b_depthly: HQ20207879000" filepath="/vendor/lib/dualcali_golden_xl3_ly.bin"></Item>
+    <Item back_main_camera="o703_hi4821q_backxl:  HQ20208546000"  back_aux1_camera= "o702_ov02b1b_depthjk: HQ20207899000" filepath="/vendor/lib/dualcali_golden_xl3_jk.bin"></Item>
+    <Item back_main_camera="o703_hi4821q_backxl:  HQ20208546000"  back_aux1_camera= "o703_gc2375h_depthcxt:HQ20207875000" filepath="/vendor/lib/dualcali_golden_xl3_cxt.bin"></Item>
+    <Item back_main_camera="o704_imx582_backxl:   HQ20208547000"  back_aux1_camera= "o701_gc02m1b_depthly: HQ20207879000" filepath="/vendor/lib/dualcali_golden_xl4_ly.bin"></Item>
+    <Item back_main_camera="o704_imx582_backxl:   HQ20208547000"  back_aux1_camera= "o702_ov02b1b_depthjk: HQ20207899000" filepath="/vendor/lib/dualcali_golden_xl4_jk.bin"></Item>
+    <Item back_main_camera="o704_imx582_backxl:   HQ20208547000"  back_aux1_camera= "o703_gc2375h_depthcxt:HQ20207875000" filepath="/vendor/lib/dualcali_golden_xl4_cxt.bin"></Item>
+    <Item back_main_camera="o705_hi4821q_backhlt: HQ20208757000"  back_aux1_camera= "o701_gc02m1b_depthly: HQ20207879000" filepath="/vendor/lib/dualcali_golden_hlt_ly.bin"></Item>
+    <Item back_main_camera="o705_hi4821q_backhlt: HQ20208757000"  back_aux1_camera= "o702_ov02b1b_depthjk: HQ20207899000" filepath="/vendor/lib/dualcali_golden_hlt_jk.bin"></Item>
+    <Item back_main_camera="o705_hi4821q_backhlt: HQ20208757000"  back_aux1_camera= "o703_gc2375h_depthcxt:HQ20207875000" filepath="/vendor/lib/dualcali_golden_hlt_cxt.bin"></Item>
+    <Item back_main_camera="o705_hi4821q_backhlt: HQ20208757000"  back_aux1_camera= "o704_sc201cs_depthcxt:HQ20208935000" filepath="/vendor/lib/dualcali_golden_hlt_cxt4.bin"></Item>
+</Sensors>
+<!--HS03_S code for SR-SL6215-01-1227 by guoyan at 2022/05/30 end-->

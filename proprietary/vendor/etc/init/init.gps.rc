@@ -1,0 +1,12 @@
+on post-fs-data
+# Directory for GPS
+    mkdir /data/vendor 0771 system system
+    chown system system /data/vendor
+    mkdir /data/vendor/gps 0771 system system
+    chown system system /data/vendor/gps
+
+on property:dev.gnss.silentlogging=ON
+    mkdir /data/vendor/gps/silentGnssLogging 0771 system system
+
+on property:dev.gnss.silentlogging=OFF
+    rmdir /data/vendor/gps/silentGnssLogging

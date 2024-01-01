@@ -1,0 +1,30 @@
+#id        #sub_id    #resource name
+0x00000001 0x00000000 cluster0_freq_min
+0x00000002 0x00000000 cluster0_freq_max
+0x00000003 0x00000000 cluster1_freq_min
+0x00000004 0x00000000 cluster1_freq_max
+0x00000005 0x00000000 scene_boost_dfs
+0x00000006 0x00000000 backdoor
+0x00000007 0x00000000 cluster0_core_min_limit
+0x00000008 0x00000000 cluster0_core_max_limit
+0x00000009 0x00000000 cluster1_core_min_limit
+0x0000000a 0x00000000 cluster1_core_max_limit
+0x0000000b 0x00000000 cluster0_freq_margin
+0x0000000c 0x00000000 cluster1_freq_margin
+0x0000000d 0x00000000 sched_walt_io_is_busy
+0x0000000e 0x00000000 sched_spc_threshold
+0x0000000f 0x00000000 sched_walt_busy_threshold
+0x1f000001 0x00000000 schedtune
+
+0x1f000001 0x00000001 schedtune_boost
+0x1f000001 0x00000002 schedtune_prefer_active
+0x1f000001 0x00000003 top-app_boost
+0x1f000001 0x00000004 top-app_account_wait_time
+0x1f000001 0x00000005 top-app_prefer_idle
+0x1f000001 0x00000006 top-app_prefer_active
+0x1f000001 0x00000007 foreground_boost
+0x1f000001 0x00000008 foreground_prefer_idle
+0x1f000001 0x00000009 foreground_prefer_active
+0x1f000001 0x0000000a background_boost
+0x1f000001 0x0000000b background_prefer_idle
+0x1f000001 0x0000000c background_prefer_active

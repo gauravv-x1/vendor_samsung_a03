@@ -1,0 +1,18 @@
+on sprd-flash-ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sc2703.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_ocp8137.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sy7807.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sc2720.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_sc2721.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_wd3124da.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_wd3610da.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_aw3641.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_aw36515.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_syx378duc.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_aw36518.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_o701_aw36413.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_o702_aw3648.ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_o703_aw36518.ko
+# HS03 code for SL6215DEV-4172 by lisizhou at 2021/03/30 start
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_o704_aw36518.ko
+# HS03 code for SL6215DEV-4172 by lisizhou at 2021/03/30 end

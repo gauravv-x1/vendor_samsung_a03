@@ -1,0 +1,25 @@
+# file permission
+on early-boot
+    mkdir /efs/taas 0770 system system
+    mkdir /mnt/vendor/efs/taas 0770 system system
+    chown system system /dev/tspio
+    chown system system /sys/class/sec/tsp/enable
+    chown system system /dev/tsp_data
+
+on boot
+    chown system system /mnt/vendor/efs/taas
+    chown system system /mnt/vendor/efs/taas/taas
+    chmod 0770 /mnt/vendor/efs/taas
+    chmod 0660 /mnt/vendor/efs/taas/taas
+
+    chown system system /mnt/vendor/efs/taas/taaslog
+    chmod 0660 /mnt/vendor/efs/taas/taaslog
+
+    chown system system /efs/taas/taaslog
+    chmod 0660 /efs/taas/taaslog
+
+service sec-sysinput-1-2 /vendor/bin/hw/vendor.samsung.hardware.sysinput@1.2-service
+    class hal
+    priority -8
+    user system
+    group system

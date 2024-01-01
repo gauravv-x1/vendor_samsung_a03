@@ -1,0 +1,13 @@
+# vendor public libraries
+# hs03 code for P211028-06925 add by chengzhi at 2021.10.29 begin
+libBokeh2Frames.so 32
+libbokeh_gaussian_cap.so 32
+libsprdbokeh.so 32
+libSegLite.so 32
+libjpeg_hw_sprd.so
+libOpenCL.so
+libOpenCL.so.1
+libOpenCL.so.1.1
+libOpenCL.so.1.2
+libDefog.so 32
+# hs03 code for P211028-06925 add by chengzhi at 2021.10.29 end

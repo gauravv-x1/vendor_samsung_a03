@@ -1,0 +1,15 @@
+key 114     VOLUME_DOWN     WAKE
+key 115     VOLUME_UP       WAKE
+key 116     POWER           WAKE
+key 212     CAMERA          WAKE
+key 0x210   FOCUS           WAKE
+
+key 633     SAR_CLOSE
+key 634     SAR_FAR
+key 635     SAR2_CLOSE
+key 636     SAR2_FAR
+key 637     SAR3_CLOSE
+key 638     SAR3_FAR
+
+key 640     HALL_CLOSE
+key 641     HALL_FAR

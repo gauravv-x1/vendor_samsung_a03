@@ -1,0 +1,6 @@
+service vendor.sprd.hardware.athuaqin@1.0-service /vendor/bin/hw/vendor.sprd.hardware.athuaqin@1.0-service
+    interface vendor.sprd.hardware.athuaqin@1.0::IAthuaqin4AP default
+    interface vendor.sprd.hardware.athuaqin@1.0::IAthuaqin4ENGPC default
+    class hal
+    user system
+    group system
